@@ -287,7 +287,6 @@ body {
   display: flex;
   align-items:flex-end;
   justify-content: center;
-
 }
 
 .buy-standart {
@@ -297,7 +296,6 @@ body {
   width: 25%;
   min-height: 200px;
   border-radius: 10px;
-    
 }
 
 .buy-standart-title {
@@ -360,25 +358,3 @@ body {
     color: black;
     background-color: azure;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
