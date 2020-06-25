@@ -195,19 +195,21 @@ body {
     width: 160px;
     clear: both;
     float: left;
+    margin: 0 20px 10px 0;
 }
 
 .section-screen-description-title {
     display: inline-block;
-    margin: 0 0 0 20px;
+    margin: 0 0 10px 0;
 }
 
 .section-screen-description-paragraph {
-    margin: 0 0 0 180px;
+    margin: 0
 }
 
 .section-reviews {
     padding: 50px;
+    padding-bottom: 30px;
     background-color: #fff;
     box-sizing: border-box;
     width: 100%;
@@ -230,7 +232,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 570px; 
-    margin: 10px 0 10px 0;
+    margin: 0 0 20px 0;
 }
 
 .section-reviews-item-photo {
@@ -269,6 +271,8 @@ body {
 .buy {
   width: 100%;
   margin: 0;
+  padding: 50px;
+  box-sizing: border-box;
 }
 
 .buy-title {
@@ -278,12 +282,12 @@ body {
   font-weight: 400;
   display: block;
   width: 100%;
-  margin: 20px 0 20px 0;
+  margin: 0 0 20px 0;
 }
 
 .buy-purchase {
   width: 100%;
-  padding: 20px 0 50px 60px;
+  padding: 0;
   display: flex;
   align-items:flex-end;
   justify-content: center;
@@ -298,6 +302,10 @@ body {
   border-radius: 10px;
 }
 
+.buy-standart:nth-child(3) {
+margin: 0;
+}
+
 .buy-standart-title {
   text-align: center;
   color: white;
@@ -306,7 +314,9 @@ body {
   font-weight: 400;
   display: block;
   width: 100%;
-  margin: 10px 0 10px 0;
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .buy-standart-price {
@@ -317,9 +327,10 @@ body {
   font-size: 40px;
   line-height: 1.2;
   font-weight: 400;
-  width: 98%;
-  padding: 5px 0 5px 0;
-  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .buy-standart ol {
@@ -347,6 +358,7 @@ body {
   line-height: 1.2;
   font-weight: bold;
   padding: 5px 0 5px 0;
+    text-transform: uppercase;
 }
 
 .buy-standart-button:hover {
