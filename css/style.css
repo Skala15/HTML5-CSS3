@@ -128,12 +128,9 @@ body {
     text-align: center;
 }
 
-.section-dignity-left {
-    float: left;
-}
-
-.section-dignity-right {
-    float: right;
+.section-dignity-menu {
+    display: flex;
+    justify-content: space-between;
 }
 
 .section-dignity ul {
@@ -163,6 +160,10 @@ body {
 
 .section-dignity-list-item:last-child {
     margin: 0px;
+}
+
+.section-screen {
+    padding-bottom: 40px;
 }
 
 .section-screen:after {
@@ -360,6 +361,7 @@ margin: 0;
   font-weight: bold;
   padding: 5px 0 5px 0;
   text-transform: uppercase;
+  outline: none;
 }
 
 .buy-standart-button:hover {
@@ -374,12 +376,14 @@ margin: 0;
 
 .footer {
   background-color: #445161;
+  padding: 50px;
+  box-sizing: border-box;
 }
 
 .footer-title {
   display: block;
-  margin: 0;
-  padding: 50px 0 20px 0;
+  margin: 0 0 20px 0;
+  padding: 0;
   font-size: 28px;
   line-height: 1.2;
   font-weight: 400;
@@ -392,7 +396,7 @@ margin: 0;
 .footer-section {
   display: flex;
   justify-content: center;
-  padding: 10px 0 50px 0;
+  padding: 0;
 }
 
 .footer-form {
@@ -401,6 +405,7 @@ margin: 0;
 
 input[type="text"],
 input[type="email"]{
+  display: block;
   margin: 0 0 20px 0;
   width: 500px;
   height: 30px;
@@ -450,22 +455,28 @@ input[type="submit"]:active {
   background-color: azure;
 }
 
+.footer-form-link {
+    margin: 0 0 0 45px;
+}
+
 .footer-form-link-img ul {
   color: #fff;
   list-style-type: none;
   margin: 0 0 15px 0;
+  padding: 0;
 }
 
 .footer-form-link-img ul li {
-  padding: 10px
+  padding: 0;
+  margin: 0 0 15px 0;
 }
 
 .footer-form-link-img ul li:nth-child(4) {
-  padding-bottom:30px
+  padding-bottom: 0;
 }
 
 .footer-form-link-img {
-    margin: 0 10px -10px 0;
+  margin: 0;
 }
 
 .copy {
@@ -478,7 +489,7 @@ input[type="submit"]:active {
 
 .footer-form-link-social {
   display: block;
-  margin: 0 0 0 45px;
+  margin: 0;
   color: #fff;  
 }
 
